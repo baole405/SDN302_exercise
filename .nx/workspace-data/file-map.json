@@ -4,26 +4,7 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
-    "nonProjectFiles": [],
     "projectFileMap": {
-      "exercise_3": [
-        {
-          "file": "apps/exercise_3/components.json",
-          "hash": "5486244813756772696"
-        },
-        {
-          "file": "apps/exercise_3/exercise_3.docx",
-          "hash": "3201746298247561454"
-        },
-        {
-          "file": "apps/exercise_3/index.js",
-          "hash": "5062449078886287752"
-        },
-        {
-          "file": "apps/exercise_3/package.json",
-          "hash": "17151117122947979506"
-        }
-      ],
       "@exercises-workspace/apps": [
         {
           "file": ".gitignore",
@@ -67,7 +48,7 @@
         },
         {
           "file": "package.json",
-          "hash": "2580512967253907678",
+          "hash": "17073474623789111539",
           "deps": [
             "npm:@nx/workspace",
             "npm:nx"
@@ -81,7 +62,26 @@
           "file": "pnpm-workspace.yaml",
           "hash": "11805071067713496448"
         }
+      ],
+      "exercise_3": [
+        {
+          "file": "apps/exercise_3/components.json",
+          "hash": "5486244813756772696"
+        },
+        {
+          "file": "apps/exercise_3/exercise_3.docx",
+          "hash": "3201746298247561454"
+        },
+        {
+          "file": "apps/exercise_3/index.js",
+          "hash": "4195615628310130368"
+        },
+        {
+          "file": "apps/exercise_3/package.json",
+          "hash": "17151117122947979506"
+        }
       ]
-    }
+    },
+    "nonProjectFiles": []
   }
 }

@@ -1,0 +1,38 @@
+
+> exercise_3@1.0.0 start D:\FPT Doc\ses7\SDN302\SDN302_exercise\apps\exercise_3
+> node index
+
+Server running at http://localhost:5000/
+{
+  host: [32m'localhost:5000'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'cache-control'[39m: [32m'max-age=0'[39m,
+  [32m'sec-ch-ua'[39m: [32m'"Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"'[39m,
+  [32m'sec-ch-ua-mobile'[39m: [32m'?0'[39m,
+  [32m'sec-ch-ua-platform'[39m: [32m'"Windows"'[39m,
+  [32m'upgrade-insecure-requests'[39m: [32m'1'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'[39m,
+  accept: [32m'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'[39m,
+  [32m'sec-fetch-site'[39m: [32m'none'[39m,
+  [32m'sec-fetch-mode'[39m: [32m'navigate'[39m,
+  [32m'sec-fetch-user'[39m: [32m'?1'[39m,
+  [32m'sec-fetch-dest'[39m: [32m'document'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip, deflate, br, zstd'[39m,
+  [32m'accept-language'[39m: [32m'en-US,en;q=0.9,vi;q=0.8'[39m
+}
+{
+  host: [32m'localhost:5000'[39m,
+  connection: [32m'keep-alive'[39m,
+  [32m'sec-ch-ua-platform'[39m: [32m'"Windows"'[39m,
+  [32m'user-agent'[39m: [32m'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36'[39m,
+  [32m'sec-ch-ua'[39m: [32m'"Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"'[39m,
+  [32m'sec-ch-ua-mobile'[39m: [32m'?0'[39m,
+  accept: [32m'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'[39m,
+  [32m'sec-fetch-site'[39m: [32m'same-origin'[39m,
+  [32m'sec-fetch-mode'[39m: [32m'no-cors'[39m,
+  [32m'sec-fetch-dest'[39m: [32m'image'[39m,
+  referer: [32m'http://localhost:5000/'[39m,
+  [32m'accept-encoding'[39m: [32m'gzip, deflate, br, zstd'[39m,
+  [32m'accept-language'[39m: [32m'en-US,en;q=0.9,vi;q=0.8'[39m
+}
+^C[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 3221225786.[39m
