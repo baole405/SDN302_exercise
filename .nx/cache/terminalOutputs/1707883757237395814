@@ -1,0 +1,9 @@
+
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+
+The input line is too long.
+
+D:\FPT Doc\ses7\SDN302\SDN302_exercise>The syntax of the command is incorrect.
+  @SET "NODE_PATH=D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\nx@21.5.1\node_modules\nx\bin\node_modules;D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\nx@21.5.1\node_modules\nx\node_modules;D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\nx@21.5.1\node_modules;D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\node_modules;%NODE_PATH%"
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 255.[39m

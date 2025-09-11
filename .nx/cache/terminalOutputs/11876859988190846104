@@ -1,0 +1,186 @@
+
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+
+
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+[2m> [22m[2mnx run[22m SDN302_exercise:build
+> SDN302_exercise@1.0.0 build D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx build
+The input line is too long.
+D:\FPT Doc\ses7\SDN302\SDN302_exercise>
+The syntax of the command is incorrect.
+  @SET "NODE_PATH=D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\nx@21.5.1\node_modules\nx\bin\node_modules;D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\nx@21.5.1\node_modules\nx\node_modules;D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\nx@21.5.1\node_modules;D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\node_modules;%NODE_PATH%"
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 255.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+[2mFailed tasks:[22m
+[2m-[22m SDN302_exercise:build
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+
+
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mRunning target [1mbuild[22m for project SDN302_exercise failed[39m
+
+[2mFailed tasks:[22m
+
+[2m-[22m SDN302_exercise:build
+
+[2mHint: run the command with[22m --verbose [2mfor more details.[22m
+
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

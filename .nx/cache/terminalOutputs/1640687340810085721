@@ -1,0 +1,30 @@
+
+> exercise_3@1.0.0 start D:\FPT Doc\ses7\SDN302\SDN302_exercise\apps\exercise_3
+> node index
+
+node:internal/modules/cjs/loader:1404
+  throw err;
+  ^
+
+Error: Cannot find module 'localhost'
+Require stack:
+- D:\FPT Doc\ses7\SDN302\SDN302_exercise\apps\exercise_3\index.js
+[90m    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)[39m
+[90m    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)[39m
+[90m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1211:37)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1487:12)[39m
+[90m    at require (node:internal/modules/helpers:135:16)[39m
+    at Object.<anonymous> [90m(D:\FPT Doc\ses7\SDN302\SDN302_exercise\apps\exercise_3\[39mindex.js:2:18[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1730:14)[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: [
+    [32m'D:\\FPT Doc\\ses7\\SDN302\\SDN302_exercise\\apps\\exercise_3\\index.js'[39m
+  ]
+}
+
+Node.js v22.17.0
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[43m[30m WARN [39m[49m  Local package.json exists, but node_modules missing, did you mean to install?

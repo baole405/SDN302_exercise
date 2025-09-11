@@ -1,0 +1,87 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.5.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [],
+    "projectFileMap": {
+      "exercise_3": [
+        {
+          "file": "apps/exercise_3/components.json",
+          "hash": "5486244813756772696"
+        },
+        {
+          "file": "apps/exercise_3/exercise_3.docx",
+          "hash": "3201746298247561454"
+        },
+        {
+          "file": "apps/exercise_3/index.js",
+          "hash": "5062449078886287752"
+        },
+        {
+          "file": "apps/exercise_3/package.json",
+          "hash": "17151117122947979506"
+        }
+      ],
+      "@exercises-workspace/apps": [
+        {
+          "file": ".gitignore",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": ".prettierignore",
+          "hash": "9159658708937611654"
+        },
+        {
+          "file": ".prettierrc",
+          "hash": "10993318880597056354"
+        },
+        {
+          "file": "README.md",
+          "hash": "16203027171035473225"
+        },
+        {
+          "file": "apps/exercise_2/exercise_2.docx",
+          "hash": "17233650919949881022"
+        },
+        {
+          "file": "apps/exercise_2/node_examples/components.json",
+          "hash": "6994500645918131596"
+        },
+        {
+          "file": "apps/exercise_2/node_examples/index.js",
+          "hash": "14167540002985854577"
+        },
+        {
+          "file": "apps/exercise_2/node_examples/package.json",
+          "hash": "8288504634370448080"
+        },
+        {
+          "file": "apps/exercise_2/node_examples/rectangle.js",
+          "hash": "14920129968884267554"
+        },
+        {
+          "file": "nx.json",
+          "hash": "5096214801063672242"
+        },
+        {
+          "file": "package.json",
+          "hash": "2580512967253907678",
+          "deps": [
+            "npm:@nx/workspace",
+            "npm:nx"
+          ]
+        },
+        {
+          "file": "pnpm-lock.yaml",
+          "hash": "16891311697907742358"
+        },
+        {
+          "file": "pnpm-workspace.yaml",
+          "hash": "11805071067713496448"
+        }
+      ]
+    }
+  }
+}

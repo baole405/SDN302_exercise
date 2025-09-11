@@ -1,0 +1,22 @@
+{
+  "name": "exercise-2",
+  "projectType": "application",
+  "sourceRoot": "apps/exercise_2/node_examples",
+  "targets": {
+    "start": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm start",
+        "cwd": "apps/exercise_2/node_examples"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm test",
+        "cwd": "apps/exercise_2/node_examples"
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.309Z - Established a connection. Number of open connections: 1
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.309Z - Closed a connection. Number of open connections: 0
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.310Z - Established a connection. Number of open connections: 1
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.312Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.334Z - Time taken for 'loadSpecifiedNxPlugins' 3.086999999999989ms
+Time for 'plugin worker 30924 code loading' 8.5214
+Time for 'plugin worker 19164 code loading' 8.763599999999997
+Time for 'plugin worker 27248 code loading' 8.065000000000001
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.763Z - Time taken for 'Load Nx Plugin: D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\nx@21.5.1\node_modules\nx\src\plugins\package-json' 447.44329999999997ms
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.784Z - Time taken for 'Load Nx Plugin: D:\FPT Doc\ses7\SDN302\SDN302_exercise\node_modules\.pnpm\nx@21.5.1\node_modules\nx\src\plugins\project-json\build-nodes\project-json' 467.55019999999996ms
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.809Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.809Z - [REQUEST]: 
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.809Z - [REQUEST]: 
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.810Z - No files changed, but no in-memory cached project graph found. Recomputing it...
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.817Z - Time taken for 'loadDefaultNxPlugins' 494.78999999999996ms
+Time for 'nx/core/project-json:createNodes' 0.276299999999992
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 2.9347000000000207
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.827Z - [WATCHER]: Processing file changes in outputs
+[NX v21.5.1 Daemon Server] - 2025-09-11T00:44:52.829Z - [WATCHER]: .gitignore was modified
+
+
+
+More information: d:\FPT Doc\ses7\SDN302\SDN302_exercise\.nx\workspace-data\d\daemon.log

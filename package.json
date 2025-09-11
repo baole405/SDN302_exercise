@@ -1,0 +1,23 @@
+{
+  "name": "@exercises-workspace/apps",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "build",
+    "test": "nx test",
+    "lint": "nx lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "nx": "nx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "@nx/workspace": "^21.5.1",
+    "nx": "21.5.1"
+  },
+  "nx": {}
+}
