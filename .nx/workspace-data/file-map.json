@@ -5,34 +5,63 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "exercise-3": [
+      "exercise-2": [
         {
-          "file": "apps/exercise_3/components.json",
+          "file": "apps/exercise_2/node_examples/components.json",
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/exercise_3/exercise_3.docx",
-          "hash": "3201746298247561454"
+          "file": "apps/exercise_2/node_examples/index.js",
+          "hash": "14167540002985854577"
         },
         {
-          "file": "apps/exercise_3/index.js",
-          "hash": "13580603606732770491"
+          "file": "apps/exercise_2/node_examples/package.json",
+          "hash": "9236810654321746703"
         },
         {
-          "file": "apps/exercise_3/package.json",
-          "hash": "14725112042360311818"
+          "file": "apps/exercise_2/node_examples/project.json",
+          "hash": "14356140629893331658"
         },
         {
-          "file": "apps/exercise_3/project.json",
-          "hash": "8546863230644460912"
+          "file": "apps/exercise_2/node_examples/rectangle.js",
+          "hash": "14920129968884267554"
+        }
+      ],
+      "exercise-3.2": [
+        {
+          "file": "apps/exercise_3.2/components.json",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "apps/exercise_3/public/aboutus.html",
-          "hash": "16077813709711682366"
+          "file": "apps/exercise_3.2/exercise_3.2.docx",
+          "hash": "8728799698674037344"
         },
         {
-          "file": "apps/exercise_3/public/index.html",
-          "hash": "10967874100059636979"
+          "file": "apps/exercise_3.2/index.js",
+          "hash": "17569366860540507547",
+          "deps": [
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/exercise_3.2/package.json",
+          "hash": "14420503091774804507"
+        },
+        {
+          "file": "apps/exercise_3.2/page/error.html",
+          "hash": "1144638409448092993"
+        },
+        {
+          "file": "apps/exercise_3.2/page/loginpage.html",
+          "hash": "9931008809085950909"
+        },
+        {
+          "file": "apps/exercise_3.2/page/success.html",
+          "hash": "13685953058356490094"
+        },
+        {
+          "file": "apps/exercise_3.2/project.json",
+          "hash": "353508696937520733"
         }
       ],
       "@exercises-workspace/apps": [
@@ -105,63 +134,34 @@
           "hash": "11805071067713496448"
         }
       ],
-      "exercise-3.2": [
+      "exercise-3": [
         {
-          "file": "apps/exercise_3.2/components.json",
+          "file": "apps/exercise_3/components.json",
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/exercise_3.2/exercise_3.2.docx",
-          "hash": "8728799698674037344"
+          "file": "apps/exercise_3/exercise_3.docx",
+          "hash": "3201746298247561454"
         },
         {
-          "file": "apps/exercise_3.2/index.js",
-          "hash": "17569366860540507547",
-          "deps": [
-            "npm:express"
-          ]
+          "file": "apps/exercise_3/index.js",
+          "hash": "13580603606732770491"
         },
         {
-          "file": "apps/exercise_3.2/package.json",
-          "hash": "14420503091774804507"
+          "file": "apps/exercise_3/package.json",
+          "hash": "14725112042360311818"
         },
         {
-          "file": "apps/exercise_3.2/page/error.html",
-          "hash": "1144638409448092993"
+          "file": "apps/exercise_3/project.json",
+          "hash": "8546863230644460912"
         },
         {
-          "file": "apps/exercise_3.2/page/loginpage.html",
-          "hash": "9931008809085950909"
+          "file": "apps/exercise_3/public/aboutus.html",
+          "hash": "16077813709711682366"
         },
         {
-          "file": "apps/exercise_3.2/page/success.html",
-          "hash": "13685953058356490094"
-        },
-        {
-          "file": "apps/exercise_3.2/project.json",
-          "hash": "353508696937520733"
-        }
-      ],
-      "exercise-2": [
-        {
-          "file": "apps/exercise_2/node_examples/components.json",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/exercise_2/node_examples/index.js",
-          "hash": "14167540002985854577"
-        },
-        {
-          "file": "apps/exercise_2/node_examples/package.json",
-          "hash": "9236810654321746703"
-        },
-        {
-          "file": "apps/exercise_2/node_examples/project.json",
-          "hash": "14356140629893331658"
-        },
-        {
-          "file": "apps/exercise_2/node_examples/rectangle.js",
-          "hash": "14920129968884267554"
+          "file": "apps/exercise_3/public/index.html",
+          "hash": "10967874100059636979"
         }
       ]
     },
