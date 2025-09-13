@@ -1,18 +1,18 @@
 {
   "run": {
-    "command": "nx run exercise_3:start",
-    "startTime": "2025-09-11T00:45:42.455Z",
-    "endTime": "2025-09-11T00:56:15.113Z",
+    "command": "nx run exercise-3.2:start",
+    "startTime": "2025-09-12T11:35:12.795Z",
+    "endTime": "2025-09-12T11:35:25.249Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "exercise_3:start",
+      "taskId": "exercise-3.2:start",
       "target": "start",
-      "projectName": "exercise_3",
-      "hash": "7694470730041885829",
-      "startTime": "2025-09-11T00:45:42.465Z",
-      "endTime": "2025-09-11T00:56:15.112Z",
+      "projectName": "exercise-3.2",
+      "hash": "3370171373612486391",
+      "startTime": "2025-09-12T11:35:12.804Z",
+      "endTime": "2025-09-12T11:35:25.247Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

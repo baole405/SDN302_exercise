@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "build",
+    "build": "nx build",
+    "clean-node_modules": "pnpx npkill",
     "test": "nx test",
     "lint": "nx lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "nx": "nx"
+    "nx": "nx",
+    "start:all": "nx run-many --target=start --projects=exercise-2,exercise-3,exercise-3.2"
   },
   "keywords": [],
   "author": "",

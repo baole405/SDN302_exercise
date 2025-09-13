@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Nhập</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .login-container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+      }
+      h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+        font-weight: bold;
+      }
+      input[type='text'],
+      input[type='password'] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+      button {
+        width: 100%;
+        padding: 12px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+      .message {
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 4px;
+        text-align: center;
+      }
+      .success {
+        background-color: #d4edda;
+        color: #155724;
+        border: 1px solid #c3e6cb;
+      }
+      .error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+      }
+      .disabled {
+        opacity: 0.5;
+        pointer-events: none;
+        background-color: #f5f5f5;
+      }
+      .valid {
+        border-color: #28a745;
+        background-color: #d4edda;
+      }
+      .invalid {
+        border-color: #dc3545;
+        background-color: #f8d7da;
+      }
+      .validation-message {
+        margin-top: 5px;
+        font-size: 14px;
+        padding: 5px;
+        border-radius: 3px;
+        display: none;
+      }
+      .validation-error {
+        color: #721c24;
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+      }
+      .validation-success {
+        color: #155724;
+        background-color: #d4edda;
+        border: 1px solid #c3e6cb;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Đăng Nhập</h2>
+      <form action="/login" method="POST" id="loginForm">
+        <div class="form-group">
+          <label for="username">Tên đăng nhập:</label>
+          <input type="text" id="username" name="username" required />
+          <div id="usernameMessage" class="validation-message"></div>
+        </div>
+        <div class="form-group">
+          <label for="password">Mật khẩu:</label>
+          <input type="password" id="password" name="password" required class="disabled" disabled />
+          <div id="passwordMessage" class="validation-message"></div>
+        </div>
+        <button type="submit" id="loginButton" class="disabled" disabled>Đăng Nhập</button>
+      </form>
+    </div>
+
+    <script>
+      const usernameInput = document.getElementById('username');
+      const passwordInput = document.getElementById('password');
+      const loginButton = document.getElementById('loginButton');
+      const usernameMessage = document.getElementById('usernameMessage');
+      const passwordMessage = document.getElementById('passwordMessage');
+      const loginForm = document.getElementById('loginForm');
+
+      let usernameValid = false;
+      let passwordValid = false;
+
+      // Focus vào username khi trang load
+      window.addEventListener('load', () => {
+        usernameInput.focus();
+      });
+
+      // Xử lý username input
+      usernameInput.addEventListener('input', function() {
+        const username = this.value.trim();
+        
+        if (username === '') {
+          // Reset khi rỗng
+          this.classList.remove('valid', 'invalid');
+          usernameMessage.style.display = 'none';
+          usernameValid = false;
+          disablePasswordAndButton();
+        } else if (username === 'admin') {
+          // Username đúng
+          this.classList.remove('invalid');
+          this.classList.add('valid');
+          usernameMessage.textContent = 'Username hợp lệ!';
+          usernameMessage.className = 'validation-message validation-success';
+          usernameMessage.style.display = 'block';
+          usernameValid = true;
+          enablePassword();
+        } else {
+          // Username sai
+          this.classList.remove('valid');
+          this.classList.add('invalid');
+          usernameMessage.textContent = 'Username phải là "admin"';
+          usernameMessage.className = 'validation-message validation-error';
+          usernameMessage.style.display = 'block';
+          usernameValid = false;
+          disablePasswordAndButton();
+        }
+      });
+
+      // Xử lý khi focus vào password
+      passwordInput.addEventListener('focus', function() {
+        if (usernameValid) {
+          // Mờ username khi focus vào password
+          usernameInput.classList.add('disabled');
+          usernameInput.style.opacity = '0.5';
+        }
+      });
+
+      // Xử lý password input
+      passwordInput.addEventListener('input', function() {
+        const password = this.value;
+        
+        if (password === '') {
+          // Reset khi rỗng
+          this.classList.remove('valid', 'invalid');
+          passwordMessage.style.display = 'none';
+          passwordValid = false;
+          disableButton();
+        } else if (password === '123456') {
+          // Password đúng
+          this.classList.remove('invalid');
+          this.classList.add('valid');
+          passwordMessage.textContent = 'Mật khẩu hợp lệ!';
+          passwordMessage.className = 'validation-message validation-success';
+          passwordMessage.style.display = 'block';
+          passwordValid = true;
+          enableButton();
+        } else {
+          // Password sai
+          this.classList.remove('valid');
+          this.classList.add('invalid');
+          passwordMessage.textContent = 'Mật khẩu phải là "123456"';
+          passwordMessage.className = 'validation-message validation-error';
+          passwordMessage.style.display = 'block';
+          passwordValid = false;
+          disableButton();
+        }
+      });
+
+      // Xử lý khi blur khỏi password (trở về username)
+      passwordInput.addEventListener('blur', function() {
+        // Khôi phục username về trạng thái bình thường
+        usernameInput.classList.remove('disabled');
+        usernameInput.style.opacity = '1';
+      });
+
+      function disablePasswordAndButton() {
+        passwordInput.disabled = true;
+        passwordInput.classList.add('disabled');
+        passwordInput.value = '';
+        passwordInput.classList.remove('valid', 'invalid');
+        passwordMessage.style.display = 'none';
+        passwordValid = false;
+        disableButton();
+      }
+
+      function enablePassword() {
+        passwordInput.disabled = false;
+        passwordInput.classList.remove('disabled');
+      }
+
+      function disableButton() {
+        loginButton.disabled = true;
+        loginButton.classList.add('disabled');
+      }
+
+      function enableButton() {
+        if (usernameValid && passwordValid) {
+          loginButton.disabled = false;
+          loginButton.classList.remove('disabled');
+          loginButton.classList.add('valid');
+        }
+      }
+
+      // Ngăn submit form nếu chưa valid
+      loginForm.addEventListener('submit', function(e) {
+        if (!usernameValid || !passwordValid) {
+          e.preventDefault();
+          alert('Vui lòng nhập đúng username và password!');
+        }
+      });
+    </script>
+  </body>
+</html>

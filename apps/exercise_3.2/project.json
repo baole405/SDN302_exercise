@@ -1,0 +1,22 @@
+{
+  "name": "exercise-3.2",
+  "projectType": "application",
+  "sourceRoot": "apps/exercise_3.2",
+  "targets": {
+    "start": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node index.js",
+        "cwd": "apps/exercise_3.2"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm test",
+        "cwd": "apps/exercise_3.2"
+      }
+    }
+  },
+  "tags": ["@exercises-workspace/apps"]
+}

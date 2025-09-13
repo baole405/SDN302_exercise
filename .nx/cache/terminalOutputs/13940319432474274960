@@ -1,0 +1,6 @@
+
+> exercise_3@1.0.0 start D:\FPT Doc\ses7\SDN302\SDN302_exercise\apps\exercise_3
+> node index
+
+Server running at http://localhost:5000/
+^C[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 3221225786.[39m

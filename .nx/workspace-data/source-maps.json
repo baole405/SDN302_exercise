@@ -1,16 +1,158 @@
 {
-  "apps/exercise_3": {
+  "apps/exercise_2/node_examples": {
     "root": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
     ],
     "name": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
     ],
     "projectType": [
-      "apps/exercise_3/package.json",
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/exercise_2/node_examples/package.json",
       "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "apps/exercise_2/node_examples/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.@exercises-workspace/apps": [
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "apps/exercise_2/node_examples/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/exercise_3": {
+    "root": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
     ],
     "tags": [
       "apps/exercise_3/package.json",
@@ -21,18 +163,6 @@
       "nx/core/package-json"
     ],
     "metadata.targetGroups": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.0": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "metadata.targetGroups.NPM Scripts.1": [
       "apps/exercise_3/package.json",
       "nx/core/package-json"
     ],
@@ -60,62 +190,6 @@
       "apps/exercise_3/package.json",
       "nx/core/package-json"
     ],
-    "targets.test": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test.executor": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test.options": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test.metadata": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test.options.script": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test.metadata.scriptContent": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.test.metadata.runCommand": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.executor": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.options": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.options.script": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata.scriptContent": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
-    "targets.start.metadata.runCommand": [
-      "apps/exercise_3/package.json",
-      "nx/core/package-json"
-    ],
     "targets.nx-release-publish": [
       "apps/exercise_3/package.json",
       "nx/core/package-json"
@@ -131,6 +205,180 @@
     "targets.nx-release-publish.options": [
       "apps/exercise_3/package.json",
       "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.@exercises-workspace/apps": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "apps/exercise_3/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/exercise_3.2": {
+    "root": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.description": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "apps/exercise_3.2/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.@exercises-workspace/apps": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.executor": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.command": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.start.options.cwd": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "apps/exercise_3.2/project.json",
+      "nx/core/project-json"
     ],
     "targets.test.inputs": [
       "nx.json",
@@ -194,6 +442,14 @@
       "package.json",
       "nx/core/package-json"
     ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "package.json",
+      "nx/core/package-json"
+    ],
     "metadata.description": [
       "package.json",
       "nx/core/package-json"
@@ -243,6 +499,34 @@
       "nx/core/package-json"
     ],
     "targets.build.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean-node_modules": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean-node_modules.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean-node_modules.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean-node_modules.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean-node_modules.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean-node_modules.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.clean-node_modules.metadata.runCommand": [
       "package.json",
       "nx/core/package-json"
     ],
@@ -383,6 +667,34 @@
       "nx/core/package-json"
     ],
     "targets.nx.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:all": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:all.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:all.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:all.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:all.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:all.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.start:all.metadata.runCommand": [
       "package.json",
       "nx/core/package-json"
     ],

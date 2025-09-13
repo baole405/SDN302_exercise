@@ -1,0 +1,33 @@
+
+> @exercises-workspace/apps@0.0.0 start:exercise-2 D:\FPT Doc\ses7\SDN302\SDN302_exercise
+> nx start exercise-2
+
+
+[2m> [22m[2mnx run[22m exercise-2:start
+
+[2m> [22mnode index.js
+
+Solving for rectangle with l = 2 and b = 4
+The area of the rectangle is 8
+The perimeter of the rectangle is 12
+
+
+Solving for rectangle with l = 3 and b = 5
+The area of the rectangle is 15
+The perimeter of the rectangle is 16
+
+
+Solving for rectangle with l = 0 and b = 5
+Rectangle dimensions should be greater than zero:  l = 0,  and b = 5
+
+
+Solving for rectangle with l = -3 and b = 5
+Rectangle dimensions should be greater than zero:  l = -3,  and b = 5
+
+
+
+
+
+[0m[7m[1m[32m NX [39m[22m[27m[0m  [32mSuccessfully ran target [1mstart[22m for project exercise-2[39m
+
+

@@ -30,5 +30,10 @@
   "workspaceLayout": {
     "appsDir": "apps",
     "libsDir": "libs"
+  },
+  "projects": {
+    "exercise-2": "apps/exercise_2/node_examples",
+    "exercise-3": "apps/exercise_3",
+    "exercise-3.2": "apps/exercise_3.2"
   }
 }

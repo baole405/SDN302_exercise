@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Nhập Thất Bại</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .error-container {
+        background-color: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+      }
+      h2 {
+        color: #dc3545;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #555;
+        margin-bottom: 30px;
+      }
+      a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #dc3545;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+      a:hover {
+        background-color: #c82333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="error-container">
+      <h2>Đăng Nhập Thất Bại!</h2>
+      <p id="errorMessage">Tên đăng nhập hoặc mật khẩu không đúng.</p>
+      <a href="/">Thử lại</a>
+    </div>
+
+    <script>
+      // Lấy thông tin lỗi từ URL parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const errorType = urlParams.get('error');
+      const errorMessage = document.getElementById('errorMessage');
+      
+      switch(errorType) {
+        case 'missing_fields':
+          errorMessage.textContent = 'Vui lòng nhập đầy đủ tên đăng nhập và mật khẩu.';
+          break;
+        case 'invalid_username':
+          errorMessage.textContent = 'Tên đăng nhập không đúng. Vui lòng nhập "admin".';
+          break;
+        case 'invalid_password':
+          errorMessage.textContent = 'Mật khẩu không đúng. Vui lòng nhập "123456".';
+          break;
+        default:
+          errorMessage.textContent = 'Tên đăng nhập hoặc mật khẩu không đúng.';
+      }
+    </script>
+  </body>
+</html>
