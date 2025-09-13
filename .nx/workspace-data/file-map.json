@@ -5,28 +5,6 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "exercise-2": [
-        {
-          "file": "apps/exercise_2/node_examples/components.json",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/exercise_2/node_examples/index.js",
-          "hash": "14167540002985854577"
-        },
-        {
-          "file": "apps/exercise_2/node_examples/package.json",
-          "hash": "9236810654321746703"
-        },
-        {
-          "file": "apps/exercise_2/node_examples/project.json",
-          "hash": "14356140629893331658"
-        },
-        {
-          "file": "apps/exercise_2/node_examples/rectangle.js",
-          "hash": "14920129968884267554"
-        }
-      ],
       "exercise-3.2": [
         {
           "file": "apps/exercise_3.2/components.json",
@@ -65,6 +43,10 @@
         }
       ],
       "@exercises-workspace/apps": [
+        {
+          "file": ".github/workflows/node.js.yml",
+          "hash": "14539713669297694964"
+        },
         {
           "file": ".gitignore",
           "hash": "7663861978715868291"
@@ -132,6 +114,28 @@
         {
           "file": "pnpm-workspace.yaml",
           "hash": "11805071067713496448"
+        }
+      ],
+      "exercise-2": [
+        {
+          "file": "apps/exercise_2/node_examples/components.json",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/exercise_2/node_examples/index.js",
+          "hash": "14167540002985854577"
+        },
+        {
+          "file": "apps/exercise_2/node_examples/package.json",
+          "hash": "9236810654321746703"
+        },
+        {
+          "file": "apps/exercise_2/node_examples/project.json",
+          "hash": "14356140629893331658"
+        },
+        {
+          "file": "apps/exercise_2/node_examples/rectangle.js",
+          "hash": "14920129968884267554"
         }
       ],
       "exercise-3": [
